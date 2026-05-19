@@ -15,7 +15,9 @@ client.on('guildMemberAdd', member => {
   channel.send(`👋 أهلاً بيك يا ${member} في السيرفر ❤️`);
 });
 
-client.login(process.env.TOKEN);
+
+
+client.login('MTQ4OTY5OTg5NDY0NTA5NjYxMQ.Gdz8zR.E0PFTmzliCxRFI98k4Ci5dGUz8wfbSAM8mkIuY');
 
 
 client.once('ready', () => {
